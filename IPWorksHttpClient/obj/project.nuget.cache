@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "hsUHoO/s86EUUhn1dGp7fOV6xPOfUcmYE8uK9hsksb9LYA+9iNO6cT0AIXmiQ02qdZgGqMCw2Iz00vOSsDJwtA==",
+  "success": true,
+  "projectFilePath": "/Users/emiliankaftirani/Documents/IPWorksHttpClient/IPWorksHttpClient/IPWorksHttpRequest.csproj",
+  "expectedPackageFiles": [
+    "/Users/emiliankaftirani/.nuget/packages/nsoftware.ipworks/22.0.8797/nsoftware.ipworks.22.0.8797.nupkg.sha512"
+  ],
+  "logs": []
+}

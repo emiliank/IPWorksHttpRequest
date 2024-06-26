@@ -1,0 +1,136 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "nsoftware.IPWorks/22.0.8797": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/nsoftware.IPWorks.System.dll": {},
+          "lib/net6.0/nsoftware.IPWorks.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/nsoftware.IPWorks.System.dll": {},
+          "lib/net6.0/nsoftware.IPWorks.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "nsoftware.IPWorks/22.0.8797": {
+      "sha512": "qnM+S028GnAhj+u6PgxA7MvwkWJWD1CBctzDn8l7ht6rWJ9vV5kQmVwEKEKJU5fqM2MnceWXIGaRD4gCw7S4lQ==",
+      "type": "package",
+      "path": "nsoftware.ipworks/22.0.8797",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/monoandroid40/nsoftware.IPWorks.System.dll",
+        "lib/monoandroid40/nsoftware.IPWorks.dll",
+        "lib/monoandroid40/nsoftware.IPWorks.xml",
+        "lib/net20/nsoftware.IPWorks.System.dll",
+        "lib/net20/nsoftware.IPWorks.dll",
+        "lib/net20/nsoftware.IPWorks.xml",
+        "lib/net40/nsoftware.IPWorks.System.dll",
+        "lib/net40/nsoftware.IPWorks.dll",
+        "lib/net40/nsoftware.IPWorks.xml",
+        "lib/net5.0/nsoftware.IPWorks.System.dll",
+        "lib/net5.0/nsoftware.IPWorks.dll",
+        "lib/net5.0/nsoftware.IPWorks.xml",
+        "lib/net6.0/nsoftware.IPWorks.System.dll",
+        "lib/net6.0/nsoftware.IPWorks.dll",
+        "lib/net6.0/nsoftware.IPWorks.xml",
+        "lib/netcoreapp3.0/nsoftware.IPWorks.System.dll",
+        "lib/netcoreapp3.0/nsoftware.IPWorks.dll",
+        "lib/netcoreapp3.0/nsoftware.IPWorks.xml",
+        "lib/netstandard2.0/nsoftware.IPWorks.System.dll",
+        "lib/netstandard2.0/nsoftware.IPWorks.dll",
+        "lib/netstandard2.0/nsoftware.IPWorks.xml",
+        "lib/uap10.0/nsoftware.IPWorks.System.dll",
+        "lib/uap10.0/nsoftware.IPWorks.dll",
+        "lib/uap10.0/nsoftware.IPWorks.xml",
+        "lib/xamarinios10/nsoftware.IPWorks.System.dll",
+        "lib/xamarinios10/nsoftware.IPWorks.dll",
+        "lib/xamarinios10/nsoftware.IPWorks.xml",
+        "lib/xamarinmac20/nsoftware.IPWorks.System.dll",
+        "lib/xamarinmac20/nsoftware.IPWorks.dll",
+        "lib/xamarinmac20/nsoftware.IPWorks.xml",
+        "license.txt",
+        "nsoftware.ipworks.22.0.8797.nupkg.sha512",
+        "nsoftware.ipworks.nuspec",
+        "packageIcon.png",
+        "readme.md"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "nsoftware.IPWorks >= 22.0.8797"
+    ]
+  },
+  "packageFolders": {
+    "/Users/emiliankaftirani/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/emiliankaftirani/Documents/IPWorksHttpClient/IPWorksHttpClient/IPWorksHttpRequest.csproj",
+      "projectName": "IPWorksHttpRequest",
+      "projectPath": "/Users/emiliankaftirani/Documents/IPWorksHttpClient/IPWorksHttpClient/IPWorksHttpRequest.csproj",
+      "packagesPath": "/Users/emiliankaftirani/.nuget/packages/",
+      "outputPath": "/Users/emiliankaftirani/Documents/IPWorksHttpClient/IPWorksHttpClient/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/emiliankaftirani/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "/usr/local/share/dotnet/library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "nsoftware.IPWorks": {
+            "target": "Package",
+            "version": "[22.0.8797, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.316/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "IPWorksHttpRequest/1.0.0": {
+        "dependencies": {
+          "nsoftware.IPWorks": "22.0.8797"
+        },
+        "runtime": {
+          "IPWorksHttpRequest.dll": {}
+        }
+      },
+      "nsoftware.IPWorks/22.0.8797": {
+        "runtime": {
+          "lib/net6.0/nsoftware.IPWorks.System.dll": {
+            "assemblyVersion": "22.0.8797.0",
+            "fileVersion": "0.0.0.0"
+          },
+          "lib/net6.0/nsoftware.IPWorks.dll": {
+            "assemblyVersion": "22.0.8797.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "IPWorksHttpRequest/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "nsoftware.IPWorks/22.0.8797": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qnM+S028GnAhj+u6PgxA7MvwkWJWD1CBctzDn8l7ht6rWJ9vV5kQmVwEKEKJU5fqM2MnceWXIGaRD4gCw7S4lQ==",
+      "path": "nsoftware.ipworks/22.0.8797",
+      "hashPath": "nsoftware.ipworks.22.0.8797.nupkg.sha512"
+    }
+  }
+}
